@@ -29,7 +29,7 @@ function equals() {
 }
 
 function operate(opp, a, b) {
-    return window[opp](a, b).toExponential();
+    return window[opp](a, b);
 }
 
 function operator(e) {
